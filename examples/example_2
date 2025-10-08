@@ -1,0 +1,9 @@
+<<EOF
+#include <print.hpp>
+
+int main(int argc, char** argv)
+{
+  std::ofstream file("log.txt");
+  print(std::string("Hello world!"), file);
+}
+EOF
